@@ -1,0 +1,7 @@
+- install git
+- create own git repo
+- add teacher as your repo collaborator
+
+Optional:
+- clone git@github.com:antohaUa/hillel_aqa_301123.git  to your project dir
+- clone your own repo to your project dir
