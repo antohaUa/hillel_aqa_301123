@@ -1,0 +1,5 @@
+- create your first program that has string variable with some hello text
+- program should print this variable to output , then print variable id ( memory ref)
+- at the end of program string variable should be deleted
+- check with linter your code , fix linter errors and create new pull request
+- send me the link to your first pull request
