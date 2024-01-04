@@ -1,0 +1,6 @@
+pip install pytest-playwright
+playwright install
+
+
+# to record scenario
+playwright codegen demo.playwright.dev/todomvc
