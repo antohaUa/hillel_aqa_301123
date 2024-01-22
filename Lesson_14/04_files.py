@@ -1,9 +1,9 @@
-fh = open('../../Lesson_Current/some.txt', 'rt')  # default
+fh = open('some.txt', 'rt')  # default
 data = fh.read()
 print(data)
 fh.close()
 
-fh = open('../../Lesson_Current/some.txt', 'w')
+fh = open('some.txt', 'w')
 fh.write('Smth\n')
 fh.write('SmthOther\n')
 fh.close()
@@ -21,7 +21,7 @@ fh.close()
 #
 #
 
-fh = open('../../Lesson_Current/some.txt', 'r')
+fh = open('some.txt', 'r')
 # data = fh.read()
 data = fh.readlines()  # list of lines
 print(data)
