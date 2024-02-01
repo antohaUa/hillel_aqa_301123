@@ -1,6 +1,9 @@
 # https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/samsung-galaxy-s24-ultra-121tb-titanium-violet-sm-s928bzvp/
 # https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/samsung-galaxy-s24-ultra-12512gb-titanium-yellow-sm-s928bzyh/
 
+# start web server with python ( port default = 8000)
+python -m http.server -d /path/to/root/web/dir
+
 1. Parse color letter from model
 2. Parse description
 3. Store captured data into dict
