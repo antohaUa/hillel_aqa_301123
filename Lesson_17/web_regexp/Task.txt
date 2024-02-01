@@ -1,0 +1,21 @@
+# https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/samsung-galaxy-s24-ultra-121tb-titanium-violet-sm-s928bzvp/
+# https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/samsung-galaxy-s24-ultra-12512gb-titanium-yellow-sm-s928bzyh/
+
+1. Parse color letter from model
+2. Parse description
+3. Store captured data into dict
+4. Save dict to output file in json format
+
+Example:
+   {
+        "model": "SM-S928BZOH",
+        "amount": 24,
+        "color": "orange",
+        "details": {
+            "screen": "6.8; AMOLED; 3120x1440; 120 Hz",
+            "storage": "512 GB",
+            "ram": "12 GB",
+            "processor": "Qualcomm Snapdragon 8 Gen 3",
+            "os": "Android 14"
+        }
+    }

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "SM-S928BZVP",
+        "amount": "46",
+        "color": "violet",
+        "Memory": "1000 GB",
+        "Android": "14"
+    },
+    {
+        "model": "SM-S928BZYH",
+        "amount": "24",
+        "color": "yellow",
+        "Memory": "512 GB",
+        "Android": "14"
+    },
+    {
+        "model": "SM-S928BZOH",
+        "amount": "23",
+        "color": "orange",
+        "Memory": "512 GB",
+        "Android": "14"
+    }
+]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Buys</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Recent Buys</h2>
+
+<form id="buyForm">
+    <label for="buyDate">Date:</label>
+    <input type="date" id="buyDate" name="buyDate" required>
+
+    <label for="buyAmount">Amount:</label>
+    <input type="number" id="buyAmount" name="buyAmount" min="1" step="1" required>
+
+    <label for="buyModel">Model:</label>
+    <input type="text" id="buyModel" name="buyModel" required>
+
+    <label for="buyDescription">Description:</label>
+    <textarea id="buyDescription" name="buyDescription" rows="4" required></textarea>
+
+    <button type="button" onclick="addBuy()">Add Buy</button>
+</form>
+
+<table id="buyTable">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Model</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody id="buyTableBody">
+        <!-- Purchases will be added dynamically here -->
+    </tbody>
+</table>
+
+<script>
+    function addBuy() {
+        // Get form values
+        var date = document.getElementById("buyDate").value;
+        var amount = document.getElementById("buyAmount").value;
+        var model = document.getElementById("buyModel").value;
+        var description = document.getElementById("buyDescription").value;
+
+        // Create a new row in the table
+        var table = document.getElementById("buyTableBody");
+        var row = table.insertRow(table.rows.length);
+
+        // Insert cells with the collected data
+        var cellDate = row.insertCell(0);
+        var cellAmount = row.insertCell(1);
+        var cellModel = row.insertCell(2);
+        var cellDescription = row.insertCell(3);
+
+        cellDate.innerHTML = date;
+        cellAmount.innerHTML = amount;
+        cellModel.innerHTML = model;
+        cellDescription.innerHTML = description;
+
+        // Clear the form after adding a buy
+        document.getElementById("buyForm").reset();
+    }
+</script>
+
+</body>
+</html>
