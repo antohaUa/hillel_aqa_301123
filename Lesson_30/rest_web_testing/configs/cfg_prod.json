@@ -1,0 +1,4 @@
+{
+  "rest_base_url": "http://realhost.com:7070",
+  "web_base_url": "http://realhost.com:8080"
+}
