@@ -1,0 +1,29 @@
+1) How do you send a GET request to a REST API endpoint in Python?
+import requests
+requests.get/post/put/delete
+
+2) How do you handle authentication when accessing a REST API in Python?
+from requests.auth import HTTPBasicAuth, HTTPDigestAuth
+
+3) How do you handle response codes and errors when interacting with a REST API in Python?
+2xx - success , 4xx - client errors , 5xx - server errors
+
+4) Can you explain how to use sessions REST API in Python?
+cookies
+
+5) How do you handle different content types (e.g., JSON, XML) when interacting with a REST API in Python?
+Headers 'Content-Type'
+
+#What are some tools or frameworks available for testing and automating REST APIs in Python?
+#How do you handle SSL/TLS certificates and secure connections when working with REST APIs in Python?
+#Can you provide an example of integrating a Python script with a REST API to perform automated tasks or data retrieval?
+#Can you explain the process of sending POST requests to a REST API using Python?
+#How do you serialize and deserialize JSON data when working with REST APIs in Python?
+#What are some best practices for testing REST API endpoints using Python?
+#How do you automate the process of sending repetitive requests to a REST API in Python?
+#What is rate limiting and how can you handle it when interacting with REST APIs in Python?
+#How do you handle pagination when retrieving large datasets from a REST API in Python?
+#Can you explain the process of sending PATCH requests to update resources in a REST API using Python?
+#How do you upload files to a REST API endpoint using Python?
+#What are some common authentication methods used with REST APIs, and how do you implement them in Python?
+#How do you handle nested resources and relationships in REST APIs when working with Python?

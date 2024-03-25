@@ -1,0 +1,146 @@
+Content:
+
+1) What data types exist in Python? How are they classified?
+Mutable/immutable
+string/integer/float/dict/list/set/tuple
+
+
+2) What is a lambda function? What is its purpose?
+lambda x: x
+sorting
+
+
+3) How to obtain documentation for object attributes?
+__doc__
+
+4) What is the difference between list and tuple types?
+mutable/immutable
+
+
+5) Can a list index be negative?
+l1[-1]
+
+6) What does the "pass" statement mean?
+empty operator
+
+
+7) How to view the methods of an object?
+dir(o1)
+
+8) What are *args and **kwargs in function definitions?
+positional and named args
+args = tuple
+kwargs = dict
+
+9) Does Python fully support OOP?
+inheritance, polymorphism, abstraction, incapsulation
+
+10) How to check a .py file for syntax errors without executing it?
+Linter
+
+11) Why is the keyword "self" used in Python?
+Link to class instance
+cls -> link to class
+
+12) What is a decorator? How to write your own?
+Fuction -> function -> function
+
+13) What can be a key in a dictionary?
+(1,2,[1,2])  hashable/unhashable
+
+
+14) What is the purpose of the magic method init?
+class constructor
+
+15) What is a slice?
+[1,2,3,4,5]  -> [3,4]  l1[2:4]
+
+16) How to check if one tuple contains all elements of another tuple?
+all([el in t2 for el in t1])
+
+
+
+17) What are @classmethod, @staticmethod, @property?
+cls , no self/cls, make from function access as for attribute
+
+
+18) What is the purpose of the id() method?
+mem address ( obj identifier)
+
+19) What is an iterator?
+__iter__   , change type
+
+20) What is a generator? How does it differ from an iterator?
+
+
+What is the purpose of the keyword "yield"?
+What is the difference between iter and next?
+What is a context manager?
+How to make a Python script executable in different operating systems?
+How to make a copy of an object? How to make a deep copy of an object?
+Describe the garbage collection process in Python.
+How to use global variables? Is it a good idea?
+What is the purpose of using the slots attribute in a class?
+What namespaces exist in Python?
+How is memory management implemented in Python?
+What are metaclasses and when should they be used?
+What is the purpose of pdb?
+What will be the result of the following expression?
+How to create a class without using the "class" keyword?
+How to reload an imported module?
+Write a decorator that intercepts errors and retries the function a maximum of N times.
+What will be the result of the following expression?
+What are the problems in Python?
+When will the else branch be executed in the try...except...else construct?
+Does Python support multiple inheritance?
+How are dict and set implemented internally? What is the complexity of getting an element? How much memory does each structure consume?
+What is MRO? How does it work?
+How are arguments passed to functions: by value or by reference?
+What tools can be used for static code analysis?
+What will be printed as a result of executing the following code?
+What is GIL? Why does GIL still exist?
+Describe the compilation process in Python.
+What are descriptors? Is there a difference between a descriptor and a decorator?
+Why doesn't Python release all memory every time it exits?
+What will be printed as a result of executing the following code?
+What is string interning? Why is it used in Python?
+How to package binary dependencies?
+Why doesn't Python optimize tail recursion? How to implement it?
+What are wheels and eggs? What is the difference?
+How to access a Python-written module from C and vice versa?
+How to speed up existing Python code?
+What is pycache? What are .pyc files?
+What is a virtual environment?
+Is Python an imperative or declarative language?
+What is a package manager? What package managers do you know?
+What are the advantages of numpy arrays compared to (nested) Python lists?
+You need to implement a function that should use a static variable. You cannot write code outside the function, and you have no information about external variables (outside your function). How to do it?
+What will be printed as a result of executing the following code?
+How to implement a dictionary from scratch?
+Write a one-liner that counts the number of uppercase letters in a file.
+What are .pth files?
+Which functions from collections and itertools do you use?
+What does the PYTHONOPTIMIZE flag do?
+What environment variables affecting Python interpreter behavior do you know?
+What is Cython? What is IronPython? What is PyPy? Why do they still exist and what are they for?
+How to reverse a generator?
+Provide an example of using filter and reduce on an iterable object.
+What is the difference between a framework and a library?
+Arrange functions in order of efficiency, explain your choice.
+There is a memory leak in a working application. How would you start debugging?
+In what situations does NotImplementedError occur?
+What's wrong with this code? Why is it needed?
+What are magic methods (dunder methods)?
+What is monkey patching? Provide an example of usage.
+How to deal with transitive dependencies?
+When is the use of Python the "right choice" for a project?
+What is a method?
+Does Python have a switch-case operator?
+Does Python support regular expressions?
+Write a regular expression that will accept an email identifier. Use the re module.
+How to pass optional or keyword parameters from one function to another?
+How to create your own package in Python?
+What are higher-order functions?
+Name Python modules related to files.
+What is the difference between NumPy and SciPy?
+What are accessors, mutators, @property?

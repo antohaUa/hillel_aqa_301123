@@ -1,0 +1,40 @@
+1) How do you set up Selenium WebDriver in Python for browser automation?
+pip install selenium
+
+
+2) What are the different WebDriver methods available in Selenium for interacting with web elements using Python?
+send_keys, click()
+
+3) How do you locate elements on a webpage using Selenium WebDriver in Python?
+xpath, css locator, id, tag
+
+4) Can you explain the differences between find_element() and find_elements() methods in Selenium with Python?
+single/multiple
+
+5) Can you explain the concept of Page Object Model (POM) in Selenium automation with Python?
+class to describe page methods
+
+6) What are the advantages of using headless browsers with Selenium in Python automation?
+visible /invisible flow
+
+7) How do you handle pop-up windows and alerts in Selenium tests using Python?
+Alert -> switch_to alert
+
+8) How do you handle frames in Selenium tests with Python?
+page in page   frame -> switch_to_frame -> swicth_to_default_content
+
+9) How do you perform cross-browser testing using Selenium WebDriver with Python?
+from selenium.webdriver import Chrome, Firefox, Safari
+
+# Can you explain the process of parallel test execution with Selenium WebDriver and Python?
+# How do you integrate Selenium WebDriver tests with continuous integration (CI) pipelines using Python?
+# What are some tools and libraries available for enhancing Selenium test automation in Python?
+# How do you handle different types of locators (e.g., XPath, CSS selectors) in Selenium with Python?
+# What are waits in Selenium WebDriver? How do you implement them in Python?
+# How do you handle dynamic content and AJAX calls in Selenium tests using Python?
+# Can you explain how to perform mouse actions (e.g., hover, drag and drop) using Selenium WebDriver in Python?
+# What are some best practices for writing maintainable and reliable Selenium tests in Python?
+# How do you handle file uploads and downloads in Selenium tests using Python?
+# Can you explain how to handle browser cookies in Selenium WebDriver with Python?
+# What are some common pitfalls and challenges encountered when automating with Selenium in Python, and how do you overcome them?
+

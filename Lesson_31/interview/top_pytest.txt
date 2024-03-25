@@ -1,0 +1,43 @@
+#What is pytest and how does it differ from other testing frameworks in Python?
+
+1) How do you install pytest and set up a testing environment in Python?
+pip install pytest
+
+2) What are fixtures in pytest and how do you use them to set up preconditions for tests?
+special function   scope=function, class, module, session
+autouse=True
+# ---
+yield
+print("Teardown")
+
+
+#Can you explain the difference between assert statements in pytest and traditional assert statements in Python?
+
+3) How do you organize test files and test functions in pytest?
+split / use structure
+
+4) What are parametrized tests in pytest and how do you implement them?
+
+5) How do you mark tests with custom markers in pytest and why is it useful?
+pytest.ini   @pytest.mark.<custom_name>
+
+6) Can you explain how to run selective tests or groups of tests in pytest?
+markers
+
+#How do you handle test dependencies and test ordering in pytest?
+#What are test fixtures scopes in pytest and how do they affect test execution?
+#How do you handle setup and teardown operations for tests in pytest?
+#Can you explain how to integrate pytest with other testing tools or libraries in Python?
+
+7) What are pytest plugins and how do you use them to extend pytest functionality?
+similar to conftest.py  -> -p <plugin_name>
+
+8) How do you generate test reports and logs with pytest?
+allure
+
+#Can you explain how to handle exceptions and expected failures in pytest?
+#What are some best practices for writing clean and maintainable test code with pytest?
+#How do you handle test coverage analysis with pytest and related tools?
+#What are some common pitfalls and challenges encountered when writing tests with pytest, and how do you address them?
+#How do you perform parameterized and data-driven testing with pytest?
+#Can you explain how to integrate pytest with continuous integration (CI) pipelines for automated testing?
