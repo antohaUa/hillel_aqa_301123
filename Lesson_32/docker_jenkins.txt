@@ -1,0 +1,10 @@
+docker pull jenkins/jenkins:2.440.2
+https://www.jenkins.io/doc/book/installing/docker/
+https://www.jenkins.io/download/
+https://hub.docker.com/r/jenkins/jenkins
+
+https://www.jenkins.io/doc/book/pipeline/syntax/
+
+docker run --rm -d --privileged --network=host -v <YOUR_LOCAL_DIR>/jenkins_home:/var/jenkins_home jenkins/jenkins:2.440.2
+docker exec -u root -it <CONTAINER_ID> bash
+apt install python3 python3-venv
